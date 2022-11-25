@@ -110,8 +110,8 @@ h3 {
 
 /* ************** PRESENTATION ************** */
 
-#presentation {
-    background-color: #fffae1;
+#Presentation {
+    /* background-color: #fffae1; */
     padding : 10px 0px 100px 0px; 
 }
 
@@ -156,12 +156,60 @@ h3 {
     transition: 0.8s ease-in-out;
 }
 
+
+/* ************** BRUNCH ************** */
+
+#brunch {
+    /* height: 1400px; */
+    /* width: 100%; */
+    /* background-color: #fffae1; */
+    /* padding: 1px 2px; */
+    padding : 10px 0px 100px 0px; 
+
+}
+
+
+#brunch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.brunchs {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+} 
+
+
+.brunchs img {
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px rgba(0,0,0, 0.7);
+    height: 300px;
+    width: 230px;
+}
+
+
+
+.brunchs img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.8s ease-in-out;
+}
+
+
+
+
+
 /* *************** COFFEE ******************** */
 
 #coffee {
-    height: 1400px;
+    /* height: 1400px; */
     /* width: 100%; */
-    background-color: #fffae1;
+    /* background-color: #fffae1; */
     padding: 1px 2px;
 }
 
@@ -188,7 +236,21 @@ h3 {
 } */
 
 
+#coffee {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
 
+
+.cafe {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+} 
 
 .cafe img {
     border-radius: 10px;
@@ -205,12 +267,18 @@ h3 {
 
 
 
-#coffee {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 30px 10%;
+.cafe img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.8s ease-in-out;
 }
+
+
+
+
+
+
+
 
 
 
