@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.learn {
+    width: 30%;
+    max-width: 100%;
+    margin: 64px auto;
+    padding: 12px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin: 32px 0px;
+    color: rgb(4, 4, 4);
+}
+
+.localisation {
+    margin-bottom: 32px;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(8, 12, 18, 0.7);
+}
+
+header img {
+    margin: 4px 0px;
+}
+
+hr {
+    margin: auto;
+}
+
+form {
+    margin-top: 28px;
+}
+
+div label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 3px 0;
+    color: rgba(40, 39, 39, 0.8);
+}
+
+div input {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(255, 81, 0, 0.8);
+    border: none;
+}
+
+div input:focus {
+    outline: none;
+}
+
