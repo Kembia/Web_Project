@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+} 
+
+html {
+    font-size: 18px;
+}
+
+
+body {  
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+#main {
+    background-color: rgba(157, 150, 150, 0.2);
+    margin: 12px 6px;
+    border-radius: 4px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 36px 0px;
+    padding-top: 26px;
+}
+
+
+h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 36px 0px;
+}
+
+p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 22px;
+
+}
+
+#img-caption {
+    font-size: 1rem;
+    text-align: center;
+    margin : 14px 0px;
+}
+
+
+#img-div {
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+#image {
+    width: 100%;
+    max-width: 100%;
+    margin: auto; 
+}
+
+ul {
+    width: 60%;
+    margin: 0px auto 22px auto;
+}
+
+li {
+    font-size: 0.95rem;
+    padding: 12px;
+}
+
+.testimony {
+    width: 55%;
+    margin: 0px auto 26px auto;
+    font-size: 1rem;
+    text-align: start;
+}
+
+.prime {
+    width: 55%;
+    margin: 0px auto 26px auto;
+    font-size: 1rem;
+    text-align: start;
+}
+
+.more {
+    margin: 0px auto 26px auto;
+    padding-bottom: 22px;
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.more a {
+    color:rgba(15, 58, 81, 0.8);
+}
