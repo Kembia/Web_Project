@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 18px;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+
+h1 {
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 90px 2px 10px 85px;
+}
+
+p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 3px;
+}
+
+p.title {
+	font-size: 0.8rem;
+	font-weight: 700;
+}
+
+
+.card {
+    width: 561px;
+    height: 297px;
+    margin: 32px auto;
+    border-radius: 8px;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 250px;
+    margin-left: 250px;
+}
+
+.stats div {
+    width: 45%;
+    padding: 2px;
+}
+
+#viking {
+    background-image: url('../images/characters/bg-elephant.jpg');
+}
+
+#sorceress {
+    background-image: url('../images/characters/bg-cat.jpg');
+}
+
+#fashionista  {
+    background-image: url('../images/characters/bg-bunny.jpg');
+}
+
