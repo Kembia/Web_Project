@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+    <button class="tablinks" onclick="openCity(event, 'NewYork')">New York</button>
+    
+
+    <div id="London" class="tabcontent">
+        <h1>London</h1>
+        <p class="description">London, the capital of England and the United Kingdom, is a modern city 
+            with a history dating back to Roman times. At its center stand the imposing 
+            Parliament, the iconic Big Ben and Westminster Abbey, the coronation site of 
+            British monarchs. On the other side of the Thames, the London Eye, the 
+            Ferris wheel, offers a panoramic view of the South Bank Center and the 
+            entire city.</p>
+        <div class="images"><img src="/images/bridge.jpg" alt="Bridge"></div>
+        
+    </div>
+
+
+
+    <div id="Paris" class="tabcontent">
+        <h1>Paris</h1>
+        <p class="description">Paris, the capital of France, is a major European city and a 
+            global center of art, fashion, gastronomy and culture. Its 19th century urban 
+            landscape is crossed by wide boulevards and the Seine. In addition to landmarks 
+            like the Eiffel Tower and the 12th-century Gothic Notre-Dame Cathedral, the city 
+            is known for its cafés and luxury boutiques lining Rue du Faubourg-Saint-Honoré.
+        </p>
+        <div class="images"><img src="/images/eiffel_tower.jpg" alt="eiffelTower"></div>
+    </div>
+
+
+
+    <div id="Tokyo" class="tabcontent">
+        <h1>Tokyo</h1>
+        <p class="description">
+            Japan's bustling capital, Tokyo combines ultra-modern and traditional, 
+            illuminated skyscrapers and historic temples. The opulent Meiji Shinto 
+            shrine is renowned for its imposing gate and the woods that surround it. 
+            The imperial palace (or Kōkyo) is set in vast public gardens. The city's 
+            many museums offer exhibitions ranging from classical art (Tokyo National 
+            Museum) to a recreation of a kabuki theater (Edo-Tokyo Museum).
+        </p>
+        <div class="images"><img src="/images/japan.jpg" alt="japan"></div>
+    </div>
+
+
+
+    <div id="NewYork" class="tabcontent">
+        <h1>New York</h1>
+        <p class="description">
+            New York is a city made up of 5 boroughs at the mouth of the Hudson River 
+            and the Atlantic Ocean. At its center is Manhattan, a densely populated 
+            borough that is among the world's major commercial, financial and cultural 
+            centers. Its must-see sites include skyscrapers like the Empire State 
+            Building and the immense Central Park. The Broadway Theater is located in 
+            Times Square.
+        </p>
+        <div class="images"><img src="/images/newYork.jpg" alt="newYork"></div>
+    </div>
+
+
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
